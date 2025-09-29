@@ -8,7 +8,7 @@
     <nav>
         <a href="#">Главная</a>
         <a href="projects.html">Проекты</a>
-        <select onchange="window.location.href=this.value;">
+        <select onchange="if(this.value) window.open(this.value, '_blank')">
             <option value="">Контакты</option>
             <option value="https://discord.gg/5dqDWzxU">Discord</option>
         </select>
